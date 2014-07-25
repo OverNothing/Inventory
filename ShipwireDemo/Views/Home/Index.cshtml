@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    var Code = ViewBag.Code as string[];
+    var Quantity = ViewBag.Quantity as string[];
+    var Pending = ViewBag.Pending as string[];
+    var Good = ViewBag.Good as string[];
+    var Backordered = ViewBag.Backordered as string[];
+    var Reserved = ViewBag.Reserved as string[];
+    var Shipping = ViewBag.Shipping as string[];
+    var Shipped = ViewBag.Shipped as string[];
+    var Consuming = ViewBag.Consuming as string[];
+    var Creating = ViewBag.Creating as string[];
+    var Consumed = ViewBag.Consumed as string[];
+    var Created = ViewBag.Created as string[];
+    var ShippedLastDay = ViewBag.ShippedLastDay as string[];
+    var ShippedLastWeek = ViewBag.ShippedLastWeek as string[];
+    var ShippedLast4Weeks = ViewBag.ShippedLast4Weeks as string[];
+    var OrderedLastDay = ViewBag.OrderedLastDay as string[];
+    var OrdreedLastWeek = ViewBag.OrderedLastWeek as string[];
+    var OrderedLast4Weeks = ViewBag.OrderedLast4Weeks as string[];
+}
+
+
+<p>@ViewBag.Name</p>
+<p>Total Products are @ViewBag.TotalProducts</p>
+<table>
+    <tr>
+        <th>Product Code</th>
+        <th>Quantity</th>
+        <th>Pending</th>
+        <th>Good</th>
+        <th>Backordered</th>
+        <th>Reserved</th>
+        <th>Shipping</th>
+        <th>Shipped</th>
+        <th>Consuming</th>
+        <th>Creating</th>
+        <th>Consumed</th>
+        <th>Created</th>
+        <th>Shipped Last Day</th>
+        <th>Shipped Last Week</th>
+        <th>Shipped Last 4Weeks</th>
+        <th>Ordered Last Day</th>
+        <th>Ordered Last Week</th>
+        <th>Ordered Last 4Weeks</th>
+    </tr>
+    @for (var i = 0; i < @ViewBag.TotalProducts; i++)
+    {
+        <tr>
+            <td>@Code[i]</td>
+            <td>@Quantity[i]</td>
+            <td>@Pending[i]</td>
+            <td>@Good[i]</td>
+            <td>@Backordered[i]</td>
+            <td>@Reserved[i]</td>
+            <td>@Shipping[i]</td>
+            <td>@Shipped[i]</td>
+            <td>@Consuming[i]</td>
+            <td>@Creating[i]</td>
+            <td>@Consumed[i]</td>
+            <td>@Created[i]</td>
+            <td>@ShippedLastDay[i]</td>
+            <td>@ShippedLastWeek[i]</td>
+            <td>@ShippedLast4Weeks[i]</td>
+            <td>@OrderedLastDay[i]</td>
+            <td>@OrdreedLastWeek[i]</td>
+            <td>@OrderedLast4Weeks[i]</td>
+        </tr>
+
+    }
+
+</table>
+
