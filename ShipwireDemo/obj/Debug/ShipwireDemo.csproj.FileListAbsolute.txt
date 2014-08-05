@@ -84,3 +84,7 @@ C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\bin\zh-Hant\System.Spat
 C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\obj\Debug\ShipwireDemo.csprojResolveAssemblyReference.cache
 C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\obj\Debug\ShipwireDemo.dll
 C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\obj\Debug\ShipwireDemo.pdb
+C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\bin\Mono.Math.dll
+C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\OverNothing\Downloads\ShipwireDemo\ShipwireDemo\bin\Mono.Math.xml
